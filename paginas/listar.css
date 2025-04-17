@@ -1,0 +1,31 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite;
+}
+div{
+    text-align: center;
+    margin: auto;
+}
+table{
+    display: flexbox;
+    margin-top: 20px;
+}
+table tr{
+    text-align: center;
+    font-size: large;
+    background-color: aquamarine;
+}
+table th{
+    border: 1px solid gray;
+    font-style: oblique;
+    color: rgb(76, 11, 138);
+}
+table td{
+    font-style: normal;
+    color: rgb(38, 85, 124);
+    border-radius: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(252, 197, 226);
+    border: 1px solid navy;
+}
