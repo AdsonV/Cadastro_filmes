@@ -1,0 +1,31 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1 {
+    color: #3a3a3a;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    margin-top: 20px;
+}
+
+thead th {
+    font-style: oblique;
+    color: rgb(76, 11, 138);
+    background-color: #d3f8f3;
+}
+
+tbody td {
+    color: rgb(38, 85, 124);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(252, 197, 226);
+    border: 1px solid navy;
+    border-radius: 0.5rem;
+}
