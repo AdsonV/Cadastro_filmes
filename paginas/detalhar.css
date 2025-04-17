@@ -1,50 +1,41 @@
-body{
+body {
     background-color: beige;
-    
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
-h1{
+
+h1 {
     color: rgb(60, 130, 133);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
     text-align: center;
     margin: auto;
 }
-.div1{
+
+.div1, .div3 {
     width: 100%;
     margin-top: 30px;
     display: grid;
     justify-content: center;
     padding: auto;
 }
-.form-label{
+
+.form-label {
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.form-control{
+
+.form-control {
     border-radius: 5%;
     height: 50px;
-    width: 240px;
+    max-width: 400px;
 }
-button{
-    border-radius: 21px;
-    width: 240px;
-}
-.divBtns{
-    display: grid;
-    justify-content: center;
-}
-.div2{
+
+.div2 {
     margin-top: 60px;
     color: brown;
     text-align: center;
 }
-.div2 li{
+
+.div2 li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-}
-.div3{
-        width: 100%;
-        margin-top: 30px;
-        display: grid;
-        justify-content: center;
-        padding: auto;
 }

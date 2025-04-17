@@ -1,31 +1,31 @@
-body{
+body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: antiquewhite;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
-div{
-    text-align: center;
-    margin: auto;
+
+h1 {
+    color: #3a3a3a;
 }
-table{
-    display: flexbox;
+
+a {
+    text-decoration: none;
+}
+
+table {
     margin-top: 20px;
 }
-table tr{
-    text-align: center;
-    font-size: large;
-    background-color: aquamarine;
-}
-table th{
-    border: 1px solid gray;
+
+thead th {
     font-style: oblique;
     color: rgb(76, 11, 138);
+    background-color: #d3f8f3;
 }
-table td{
-    font-style: normal;
+
+tbody td {
     color: rgb(38, 85, 124);
-    border-radius: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
     background-color: rgb(252, 197, 226);
     border: 1px solid navy;
+    border-radius: 0.5rem;
 }
